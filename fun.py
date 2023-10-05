@@ -17,3 +17,13 @@ class Neuron:
 		y = sum(products) + self.bias
 
 		return classifier(y)
+
+
+class MP(Neuron):
+	pass
+
+
+class Perceptron(Neuron):
+	def __init__(self, n: int, bias:float):
+		w = [1.0] * n
+		super().__init__(weights=w, bias=bias)
