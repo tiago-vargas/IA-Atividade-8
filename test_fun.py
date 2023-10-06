@@ -1,4 +1,4 @@
-from fun import MP, Perceptron
+from fun import MP, PerceptronWithoutLearning
 
 
 class TestMPNeuron:
